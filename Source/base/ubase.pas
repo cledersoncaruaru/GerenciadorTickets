@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, IWAppForm, IWApplication, IWColor, IWTypes, IWCompEdit,
-  IWTemplateProcessorHTML;
+  IWTemplateProcessorHTML, IWCompGradButton;
 
 type
 

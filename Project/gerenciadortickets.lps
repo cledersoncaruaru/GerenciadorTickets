@@ -9,8 +9,8 @@
         <Filename Value="gerenciadortickets.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="2"/>
-        <CursorPos Y="11"/>
-        <UsageCount Value="20"/>
+        <CursorPos Y="13"/>
+        <UsageCount Value="27"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -20,7 +20,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="ServerController"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="27"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -32,9 +32,9 @@
         <UnitName Value="uBase"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="12"/>
-        <CursorPos X="50" Y="32"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="15"/>
+        <CursorPos X="23" Y="34"/>
+        <UsageCount Value="27"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -46,12 +46,12 @@
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="UserSessionUnit"/>
         <EditorIndex Value="3"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="27"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="22">
+    <JumpHistory HistoryIndex="24">
       <Position>
         <Filename Value="..\Source\base\ubase.pas"/>
         <Caret Line="11" Column="30"/>
@@ -142,7 +142,15 @@
       </Position>
       <Position>
         <Filename Value="..\Source\base\ubase.pas"/>
-        <Caret Line="32" Column="2" TopLine="12"/>
+        <Caret Line="32" Column="50" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Source\base\ubase.pas"/>
+        <Caret Line="33" Column="50" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Source\base\ubase.pas"/>
+        <Caret Line="8" Column="64"/>
       </Position>
     </JumpHistory>
     <RunParams>

@@ -25,6 +25,55 @@ object FrmBase: TFrmBase
     SubmitOnAsyncEvent = True
     Text = 'IWEdit1'
   end
+  object IWGradButton1: TIWGradButton
+    Left = 200
+    Height = 36
+    Top = 96
+    Width = 140
+    AlignWithMargins = False
+    Style.Border.Color = 1051800
+    Style.Border.Width = 1
+    Style.BorderDisabled.Color = 
+    Style.BorderDisabled.Width = 1
+    Style.Button.Alignment = taCenter
+    Style.Button.Font.Color = 
+    Style.Button.Font.FontFamily = 'Arial, Sans-Serif, Verdana'
+    Style.Button.Font.Size = 10
+    Style.Button.Font.Style = []
+    Style.Button.Font.PxSize = 13
+    Style.Button.FromColor = 2366701
+    Style.Button.ToColor = 1512362
+    Style.ButtonHover.Alignment = taCenter
+    Style.ButtonHover.Font.Color = 
+    Style.ButtonHover.Font.FontFamily = 'Arial, Sans-Serif, Verdana'
+    Style.ButtonHover.Font.Size = 10
+    Style.ButtonHover.Font.Style = []
+    Style.ButtonHover.Font.PxSize = 13
+    Style.ButtonHover.FromColor = 1775049
+    Style.ButtonHover.ToColor = 1380769
+    Style.ButtonActive.Alignment = taCenter
+    Style.ButtonActive.Font.Color = 
+    Style.ButtonActive.Font.FontFamily = 'Arial, Sans-Serif, Verdana'
+    Style.ButtonActive.Font.Size = 10
+    Style.ButtonActive.Font.Style = []
+    Style.ButtonActive.Font.PxSize = 13
+    Style.ButtonActive.FromColor = 1512362
+    Style.ButtonActive.ToColor = 2366701
+    Style.ButtonDisabled.Alignment = taCenter
+    Style.ButtonDisabled.Font.Color = 
+    Style.ButtonDisabled.Font.FontFamily = 'Arial, Sans-Serif, Verdana'
+    Style.ButtonDisabled.Font.Size = 10
+    Style.ButtonDisabled.Font.Style = []
+    Style.ButtonDisabled.Font.PxSize = 13
+    Style.ButtonDisabled.FromColor = 
+    Style.ButtonDisabled.ToColor = 7368816
+    Style.ColorScheme = csRed
+    Style.BoxShadow.ColorTransparency = 0.5
+    Style.TextShadow.ColorTransparency = 0.5
+    Caption = 'IWGradButton1'
+    Color = -2147483633
+    FriendlyName = 'IWGradButton1'
+  end
   object TPS: TIWTemplateProcessorHTML
     MasterFormTag = False
     TagType = ttIntraWeb

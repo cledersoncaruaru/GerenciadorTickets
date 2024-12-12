@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, IWAppForm, IWApplication, IWColor, IWTypes, IWCompEdit,
-  IWTemplateProcessorHTML;
+  IWTemplateProcessorHTML, IWCompGradButton;
 
 type
 
@@ -14,6 +14,7 @@ type
 
   TFrmBase = class(TIWAppForm)
     IWEdit1: TIWEdit;
+    IWGradButton1: TIWGradButton;
     TPS: TIWTemplateProcessorHTML;
     procedure FrmBaseCreate(Sender: TObject);
   public
@@ -29,17 +30,20 @@ procedure TFrmBase.FrmBaseCreate(Sender: TObject);
 begin
 
 
+  TPS.Templates.Default       := '/master.html';
 
-    if self.Name = 'FrmLogin' then begin
 
-     TPS.Templates.Default := '/FrmLogin.html';
 
-  end else begin
-
-    TPS.MasterTemplate          := '/master.html';
-    TPS.Templates.Default       := '/'+self.Name+'.html';
-
-  end;
+  //  if self.Name = 'FrmLogin' then begin
+  //
+  //   TPS.Templates.Default := '/FrmLogin.html';
+  //
+  //end else begin
+  //
+  //  TPS.MasterTemplate          := '/master.html';
+  //  TPS.Templates.Default       := '/'+self.Name+'.html';
+  //
+  //end;
 
 
 
